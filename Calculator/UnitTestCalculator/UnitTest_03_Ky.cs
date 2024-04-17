@@ -14,9 +14,9 @@ namespace UnitTestCalculator
     /// Summary description for UnitTest2
     /// </summary>
     [TestClass]
-    public class UnitTest2
+    public class UnitTest_03_Ky
     {
-        static int index = 1;
+        static int index_03_Ky = 1;
 
         
         public TestContext TestContext
@@ -24,7 +24,7 @@ namespace UnitTestCalculator
             get;
             set;
         }
-        public UnitTest2()
+        public UnitTest_03_Ky()
         {
             //
             // TODO: Add constructor logic here
@@ -32,22 +32,22 @@ namespace UnitTestCalculator
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestGameKeoBuaBao.csv", "TestGameKeoBuaBao#csv", DataAccessMethod.Sequential)]
-
-        public void TestGameKeoBuaBao()
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestGameKeoBuaBao_03_Ky.csv", "TestGameKeoBuaBao_03_Ky#csv", DataAccessMethod.Sequential)]
+        public void TestGameKeoBuaBao_03_Ky()
         {
-            Console.WriteLine(index);
+            Console.WriteLine(index_03_Ky);
 
-            string inputFilePath = @"D:\testing_course\test_calculator\Calculator\UnitTestCalculator\Data\TestGameKeoBuaBao.csv";
+            string inputFilePath = @"D:\testing_course\test_calculator\Calculator\UnitTestCalculator\Data\TestGameKeoBuaBao_03_Ky.csv";
+            Console.WriteLine(TestContext.DataRow[0].ToString());
 
             string a, b, expected, actual;
             a = TestContext.DataRow[0].ToString();
             b = TestContext.DataRow[1].ToString();
             expected = TestContext.DataRow[2].ToString();
 
-            GameKeoBuaBao gameKeoBuaBao = new GameKeoBuaBao(a, b);
-            gameKeoBuaBao.HandleKeoBuaBao();
-            actual = gameKeoBuaBao.GetMessage();
+            GameKeoBuaBao_03_Ky gameKeoBuaBao_03_Ky = new GameKeoBuaBao_03_Ky(a, b);
+            gameKeoBuaBao_03_Ky.HandleKeoBuaBao_03_Ky();
+            actual = gameKeoBuaBao_03_Ky.GetMessage();
 
             Assert.AreEqual(expected, actual);
 
@@ -74,10 +74,10 @@ namespace UnitTestCalculator
                 string testDataLine = string.Join(",", testData);
 
                 // Add data to new column next to "result"
-                if(index <= lines.Count) {
-                    if (!(index == 0))
+                if(index_03_Ky <= lines.Count) {
+                    if (!(index_03_Ky == 0))
                     {
-                        lines[index] += $",{result}";
+                        lines[index_03_Ky] += $",{result}";
                     }
                 }
                 // Write the updated data back to the CSV file
@@ -87,7 +87,7 @@ namespace UnitTestCalculator
             {
                 Console.WriteLine($"Error writing to CSV file: {ex.Message}");
             }
-            index += 1;
+            index_03_Ky += 1;
 
         }
     }

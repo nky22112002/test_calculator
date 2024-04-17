@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Calculator",
-    "\\Calculator\\Calculator"
+    "\\Calculator\\Calculator",
+    "\\Calculator\\UnitTestCalculator"
   ],
-  "SelectedNode": "\\Calculator\\Calculator\\Form2.cs",
+  "SelectedNode": "\\Calculator\\UnitTestCalculator\\UnitTestCalculator.csproj",
   "PreviewInSolutionExplorer": false
 }

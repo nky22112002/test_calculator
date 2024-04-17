@@ -22,12 +22,11 @@ D:\testing_course\test_calculator\Calculator\Calculator\bin\Debug\Calculator.exe
 D:\testing_course\test_calculator\Calculator\Calculator\bin\Debug\Calculator.exe
 D:\testing_course\test_calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
-D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
-D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Form2.resources
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
-D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.FormDice.resources
-D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Form3.resources
+D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Form1_03_Ky.resources
+D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.FormKeoBuaBao_03_Ky.resources
+D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.FormDice_03_Ky.resources
