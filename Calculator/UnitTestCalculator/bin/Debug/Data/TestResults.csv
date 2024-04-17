@@ -1,0 +1,18 @@
+Rock,Paper,Player 2 win!!!,Player 2 win!!!
+Rock,Scissors,Player 1 win!!!,Player 1 win!!!
+Paper,Scissors,Player 2 win!!!,Player 2 win!!!
+Paper,Rock,Player 1 win!!!,Player 1 win!!!
+Scissors,Paper,Player 1 win!!!,Player 1 win!!!
+Scissors,Rock,Player 2 win!!!,Player 2 win!!!
+Scissors,Scissors,Draw!!!,Draw!!!
+Paper,Paper,Draw!!!,Draw!!!
+Rock,Rock,Draw!!!,Draw!!!
+Rock,Paper,Player 2 win!!!,passed
+Rock,Scissors,Player 1 win!!!,passed
+Paper,Scissors,Player 2 win!!!,passed
+Paper,Rock,Player 1 win!!!,passed
+Scissors,Paper,Player 1 win!!!,passed
+Scissors,Rock,Player 2 win!!!,passed
+Scissors,Scissors,Draw!!!,passed
+Paper,Paper,Draw!!!,passed
+Rock,Rock,Draw!!!,passed
