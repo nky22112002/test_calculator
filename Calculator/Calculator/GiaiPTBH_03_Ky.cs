@@ -16,30 +16,36 @@ namespace Calculator
             return this.message;
         }
         
-        public void HandleButtonKQ_03_Ky(double a, double b, double c, Label label)
+        public string HandleButtonKQ_03_Ky(double a, double b, double c)
         {
-            double delta = b * b - 4 * a * c;
-
-            if (delta > 0)
+            double delta = b * b - (4 * a * c);
+            if(a == 0)
+            {
+                double x = c / b;
+                this.message = $"The equation has a single root: x = {x.ToString("0.###")}";
+                return this.message;
+            }
+            else if (delta > 0)
             {
                 // Phương trình có 2 nghiệm
                 double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
                 double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
-                this.message = $"Phương trình có 2 nghiệm: x1 = {x1}, x2 = {x2}";
-                label.Text = this.message;
+
+                this.message = $"The equation has 2 roots: x1 = {x1.ToString("0.###")} x2 = {x2.ToString("0.###")}";
+                return this.message;
             }
             else if (delta == 0)
             {
                 // Phương trình có nghiệm kép
                 double x = -b / (2 * a);
-                this.message = $"Phương trình có nghiệm kép: x = {x}";
-                label.Text = this.message;
+                this.message = $"The equation has a double root: x = {x.ToString("0.###")}";
+                return this.message;
             }
             else
             {
                 // Phương trình không có nghiệm thực
-                this.message = "Phương trình không có nghiệm thực";
-                label.Text = this.message;
+                this.message = "The equation has no real roots";
+                return this.message;
 
             }
         }
