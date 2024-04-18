@@ -55,7 +55,8 @@
     <Compile Include="UnitTest_03_Ky.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\TestGameKeoBuaBao_03_Ky.csv">
+    <None Include="Data\TestDataGameDice_03_Ky.csv" />
+    <None Include="Data\TestDataGameKeoBuaBao_03_Ky.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />

@@ -29,4 +29,4 @@ D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.Form1_03_Ky.resources
 D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.FormKeoBuaBao_03_Ky.resources
-D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.FormDice_03_Ky.resources
+D:\testing_course\test_calculator\Calculator\Calculator\obj\Debug\Calculator.PTBH_03_Ky.resources

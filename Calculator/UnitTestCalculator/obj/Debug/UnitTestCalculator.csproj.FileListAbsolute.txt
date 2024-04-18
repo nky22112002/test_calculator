@@ -33,4 +33,4 @@ D:\testing_course\test_calculator\Calculator\UnitTestCalculator\obj\Debug\UnitTe
 D:\testing_course\test_calculator\Calculator\UnitTestCalculator\obj\Debug\UnitTestCalculator.csproj.CopyComplete
 D:\testing_course\test_calculator\Calculator\UnitTestCalculator\obj\Debug\UnitTestCalculator.dll
 D:\testing_course\test_calculator\Calculator\UnitTestCalculator\obj\Debug\UnitTestCalculator.pdb
-D:\testing_course\test_calculator\Calculator\UnitTestCalculator\bin\Debug\Data\TestGameKeoBuaBao_03_Ky.csv
+D:\testing_course\test_calculator\Calculator\UnitTestCalculator\bin\Debug\Data\TestDataGameKeoBuaBao_03_Ky.csv

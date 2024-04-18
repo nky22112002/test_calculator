@@ -24,10 +24,12 @@ namespace Calculator
             this.Hide();
         }
 
-        private void btnDice_03_Ky_Click(object sender, EventArgs e)
+        
+
+        private void btnPTBH_03_Ky_Click(object sender, EventArgs e)
         {
-            FormDice_03_Ky dice = new FormDice_03_Ky();
-            dice.Show();
+            PTBH_03_Ky pTBH_03_Ky = new PTBH_03_Ky();
+            pTBH_03_Ky.Show();
             this.Hide();
         }
     }

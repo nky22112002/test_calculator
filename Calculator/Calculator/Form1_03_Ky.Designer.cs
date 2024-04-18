@@ -30,7 +30,7 @@ namespace Calculator
         private void InitializeComponent()
         {
             this.btnGame123_03_Ky = new System.Windows.Forms.Button();
-            this.btnDice_03_Ky = new System.Windows.Forms.Button();
+            this.btnPTBH_03_Ky = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnGame123_03_Ky
@@ -43,22 +43,22 @@ namespace Calculator
             this.btnGame123_03_Ky.UseVisualStyleBackColor = true;
             this.btnGame123_03_Ky.Click += new System.EventHandler(this.btnGame123_03_Ky_Click);
             // 
-            // btnDice_03_Ky
+            // btnPTBH_03_Ky
             // 
-            this.btnDice_03_Ky.Location = new System.Drawing.Point(525, 62);
-            this.btnDice_03_Ky.Name = "btnDice_03_Ky";
-            this.btnDice_03_Ky.Size = new System.Drawing.Size(170, 86);
-            this.btnDice_03_Ky.TabIndex = 4;
-            this.btnDice_03_Ky.Text = "Game Dice";
-            this.btnDice_03_Ky.UseVisualStyleBackColor = true;
-            this.btnDice_03_Ky.Click += new System.EventHandler(this.btnDice_03_Ky_Click);
+            this.btnPTBH_03_Ky.Location = new System.Drawing.Point(525, 62);
+            this.btnPTBH_03_Ky.Name = "btnPTBH_03_Ky";
+            this.btnPTBH_03_Ky.Size = new System.Drawing.Size(170, 86);
+            this.btnPTBH_03_Ky.TabIndex = 4;
+            this.btnPTBH_03_Ky.Text = "Giải PTBH";
+            this.btnPTBH_03_Ky.UseVisualStyleBackColor = true;
+            this.btnPTBH_03_Ky.Click += new System.EventHandler(this.btnPTBH_03_Ky_Click);
             // 
             // Form1_03_Ky
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 562);
-            this.Controls.Add(this.btnDice_03_Ky);
+            this.Controls.Add(this.btnPTBH_03_Ky);
             this.Controls.Add(this.btnGame123_03_Ky);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1_03_Ky";
@@ -69,7 +69,7 @@ namespace Calculator
 
         #endregion
         private System.Windows.Forms.Button btnGame123_03_Ky;
-        private System.Windows.Forms.Button btnDice_03_Ky;
+        private System.Windows.Forms.Button btnPTBH_03_Ky;
     }
 }
 

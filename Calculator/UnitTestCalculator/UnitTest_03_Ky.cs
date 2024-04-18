@@ -32,12 +32,12 @@ namespace UnitTestCalculator
         }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestGameKeoBuaBao_03_Ky.csv", "TestGameKeoBuaBao_03_Ky#csv", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestDataGameKeoBuaBao_03_Ky.csv", "TestDataGameKeoBuaBao_03_Ky#csv", DataAccessMethod.Sequential)]
         public void TestGameKeoBuaBao_03_Ky()
         {
             Console.WriteLine(index_03_Ky);
 
-            string inputFilePath = @"D:\testing_course\test_calculator\Calculator\UnitTestCalculator\Data\TestGameKeoBuaBao_03_Ky.csv";
+            string inputFilePath = @"D:\testing_course\test_calculator\Calculator\UnitTestCalculator\Data\TestDataGameKeoBuaBao_03_Ky.csv";
             Console.WriteLine(TestContext.DataRow[0].ToString());
 
             string a, b, expected, actual;
