@@ -55,41 +55,41 @@ namespace UnitTestCalculator
             // Determine test result
             string result = TestContext.CurrentTestOutcome.ToString();
 
-            //try
-            //{
-            //    // Read existing data from CSV file
-            //    List<string> lines = new List<string>();
-            //    if (File.Exists(inputFilePath))
-            //    {
-            //        lines = File.ReadAllLines(inputFilePath).ToList();
-            //    }
+            try
+            {
+                // Read existing data from CSV file
+                List<string> lines = new List<string>();
+                if (File.Exists(inputFilePath))
+                {
+                    lines = File.ReadAllLines(inputFilePath).ToList();
+                }
 
-            //    // Add "Result" header if not already present
-            //    if (lines.Count > 0 && !lines[0].Contains("result"))
-            //    {
-            //        lines[0] += ",result";
-            //    }
+                // Add "Result" header if not already present
+                if (lines.Count > 0 && !lines[0].Contains("result"))
+                {
+                    lines[0] += ",result";
+                }
 
-            //    // Append the test data and result to the CSV file
-            //    string[] testData = { a, b, expected, result };
-            //    string testDataLine = string.Join(",", testData);
+                // Append the test data and result to the CSV file
+                string[] testData = { a, b, expected, result };
+                string testDataLine = string.Join(",", testData);
 
-            //    // Add data to new column next to "result"
-            //    if (index_03_Ky <= lines.Count)
-            //    {
-            //        if (!(index_03_Ky == 0))
-            //        {
-            //            lines[index_03_Ky] += $",{result}";
-            //        }
-            //    }
-            //    // Write the updated data back to the CSV file
-            //    File.WriteAllLines(inputFilePath, lines);
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"Error writing to CSV file: {ex.Message}");
-            //}
-            //index_03_Ky += 1;
+                // Add data to new column next to "result"
+                if (index_03_Ky <= lines.Count)
+                {
+                    if (!(index_03_Ky == 0))
+                    {
+                        lines[index_03_Ky] += $",{result}";
+                    }
+                }
+                // Write the updated data back to the CSV file
+                File.WriteAllLines(inputFilePath, lines);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error writing to CSV file: {ex.Message}");
+            }
+            index_03_Ky += 1;
 
         }
         [TestMethod]
@@ -105,6 +105,44 @@ namespace UnitTestCalculator
             expected = TestContext.DataRow[3].ToString();
             string result = giaiPTBH_03_Ky.HandleButtonKQ_03_Ky(a, b, c);
             Assert.AreEqual(expected, result);
+            // Determine test result
+            string resultTest = TestContext.CurrentTestOutcome.ToString();
+
+            try
+            {
+                // Read existing data from CSV file
+                List<string> lines = new List<string>();
+                if (File.Exists(inputFilePath))
+                {
+                    lines = File.ReadAllLines(inputFilePath).ToList();
+                }
+
+                // Add "Result" header if not already present
+                if (lines.Count > 0 && !lines[0].Contains("result"))
+                {
+                    lines[0] += ",result";
+                }
+
+                // Append the test data and result to the CSV file
+                string[] testData = { a.ToString(), b.ToString(), c.ToString(), expected, resultTest };
+                string testDataLine = string.Join(",", testData);
+
+                // Add data to new column next to "result"
+                if (index_03_Ky <= lines.Count)
+                {
+                    if (!(index_03_Ky == 0))
+                    {
+                        lines[index_03_Ky] += $",{resultTest}";
+                    }
+                }
+                // Write the updated data back to the CSV file
+                File.WriteAllLines(inputFilePath, lines);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error writing to CSV file: {ex.Message}");
+            }
+            index_03_Ky += 1;
         }
     }
 }

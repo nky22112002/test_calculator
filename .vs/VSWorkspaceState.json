@@ -3,8 +3,9 @@
     "",
     "\\Calculator",
     "\\Calculator\\Calculator",
-    "\\Calculator\\UnitTestCalculator"
+    "\\Calculator\\UnitTestCalculator",
+    "\\Calculator\\UnitTestCalculator\\Data"
   ],
-  "SelectedNode": "\\Calculator\\UnitTestCalculator\\UnitTestCalculator.csproj",
+  "SelectedNode": "\\Calculator\\UnitTestCalculator\\Data\\TestDataPTBH_03_Ky.csv",
   "PreviewInSolutionExplorer": false
 }
